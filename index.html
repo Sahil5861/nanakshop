@@ -136,9 +136,12 @@
                     <div class="category-pills"><button class="filter-btn active" data-filter="all">All
                             items</button><button class="filter-btn" data-filter="grains">Grains</button><button
                             class="filter-btn" data-filter="pulses">Pulses</button><button class="filter-btn"
-                            data-filter="essentials">Essentials</button></div><label class="search-box"><i
+                            data-filter="essentials">Essentials</button></div><div class="search-box"><i
                             class="bi bi-search"></i><input id="productSearch" type="search"
-                            placeholder="Search essentials..." aria-label="Search products"></label>
+                            placeholder="Search essentials..." aria-label="Search products"><button id="voiceSearchBtn"
+                                class="voice-search-btn" type="button" aria-label="Search products by voice"
+                                aria-pressed="false" title="Search by voice"><i class="bi bi-mic-fill"
+                                    aria-hidden="true"></i><span class="visually-hidden">Search by voice</span></button></div>
                 </div>
                 <div class="row g-4" id="productGrid"></div>
                 <div id="emptyProducts" class="empty-state d-none"><i class="bi bi-search"></i>
